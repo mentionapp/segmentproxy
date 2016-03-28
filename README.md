@@ -35,7 +35,11 @@ sending the payload to Segment.
 
 ## Simple server
 
-The ./simpleserver package is a minimal runnable server. it accepts a single ``--segment-write-key`` command line parameter.
+The ``./simpleserver`` package is a minimal runnable server. It accepts a single ``--segment-write-key`` command line parameter, and listens on port ``8080``.
+
+Example usage:
+
+    curl localhost:8080/identify -XPOST -d '{"userId": "foo"}'
 
 ## Multiple environments
 
