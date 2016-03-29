@@ -43,7 +43,7 @@ Example usage:
 
 ## Multiple environments
 
-It can be convenient to use different segment accounts or projets. This can be
+It can be convenient to use different segment accounts or projects. This can be
 achieved by using ``segmentproxy.Register()`` multiple times with different
 segment instances and prefixes.
 
